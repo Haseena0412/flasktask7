@@ -1,0 +1,33 @@
+body
+{
+    background-color: rgb(233, 163, 140);
+    text-align: center;
+    padding: 50px;
+}
+
+h1
+{
+    color: rgb(6, 245, 245);
+    font-size: 25px;
+    font-style: oblique;
+    font-family: cursive;
+    padding: 10px;
+}
+label
+{
+    color: azure;
+    font-size: 20px;
+    font-style:inherit;
+
+}
+
+input
+{
+    color: rgb(248, 145, 10);
+    background-color: beige;
+    background-position: 500px;
+    font-size: 20px;
+    font-style: italic;
+    border-radius: 25px;
+    box-shadow: 500px;
+}

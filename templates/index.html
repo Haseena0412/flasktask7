@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Welcome page</title>
+        <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='css/style.css') }}">
+    </head>
+    <body>
+        <h1>Enter your name</h1>
+        <form action="/welcome" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>
